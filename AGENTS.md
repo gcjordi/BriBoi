@@ -17,6 +17,7 @@ Codex must help maintain, improve and extend the project while preserving clarit
 - Always work through branches and pull requests.
 - Keep both modules separated unless integration is explicitly requested.
 - Do not add secrets, API keys, tokens or credentials.
+- Do not add personal data, private information, contributor metadata, logs, datasets or any other sensitive information.
 - Avoid unnecessary dependencies.
 - Keep documentation in English.
 - Preserve the existing LICENSE, NOTICE, SECURITY.md, CONTRIBUTING.md and CODE_OF_CONDUCT.md files.
