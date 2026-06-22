@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BRI — Biodiversity Risk Intelligence | CibraLAB</title>
+  <meta name="description" content="Observatori obert amb IA sobre biodiversitat, salut pública i riscos emergents.">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+</head>
+<body>
+<header class="hero">
+  <nav><strong>BRI</strong><span>Biodiversity Risk Intelligence</span><a href="methodology.html">Metodologia</a><a href="sources.html">Fonts</a><a href="reports/latest.html">Informe</a></nav>
+  <div class="hero-content">
+    <p class="eyebrow">Projecte obert de CibraLAB</p>
+    <h1>Intel·ligència oberta sobre biodiversitat, salut pública i riscos emergents.</h1>
+    <p>Observatori automatitzat que combina dades públiques, fonts obertes i una capa d’intel·ligència IA per detectar senyals febles, correlacions i tendències.</p>
+    <a class="button" href="#mapa">Veure mapa</a>
+  </div>
+</header>
+<main>
+<section class="cards" id="summary"></section>
+<section class="panel" id="aiBox"><h2>Capa d’intel·ligència IA</h2><p class="muted">Carregant anàlisi...</p></section>
+<section class="panel" id="mapa">
+  <div class="section-title"><h2>Mapa de riscos</h2><p id="updated">Carregant dades...</p></div>
+  <div id="map"></div>
+</section>
+<section class="panel"><div class="section-title"><h2>Territoris monitoritzats</h2><p>BRI Score 0-100, amb components explicables</p></div><div class="table-wrap"><table><thead><tr><th>Territori</th><th>Risc</th><th>Score</th><th>Factors principals</th><th>Components</th></tr></thead><tbody id="regions"></tbody></table></div></section>
+<section class="panel"><div class="section-title"><h2>Senyals recents</h2><p>Fonts obertes i RSS públics</p></div><div id="signals" class="signals"></div></section>
+<section class="grid2">
+  <article class="panel"><h2>Metodologia</h2><p>El BRI Score v0.2 pondera clima, zoonosi, biodiversitat, qualitat ambiental i senyals de fonts obertes. La IA interpreta i explica, però el càlcul continua sent auditable.</p><a href="methodology.html">Llegir metodologia</a></article>
+  <article class="panel warning"><h2>Avís important</h2><p>No és una alerta oficial, no substitueix autoritats sanitàries, ambientals ni serveis d’emergència, i no ofereix diagnòstic mèdic.</p></article>
+</section>
+</main>
+<footer>© CibraLAB · Biodiversity Risk Intelligence · Dades obertes i ús informatiu</footer>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

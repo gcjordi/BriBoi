@@ -1,0 +1,115 @@
+{
+    "updated_at": "2026-06-21T23:39:06+02:00",
+    "items": {
+        "catalunya": {
+            "region": "Catalunya",
+            "max_temperature_7d": 26,
+            "rain_7d": 14,
+            "max_wind_7d": 42,
+            "heat_score": 6,
+            "drought_score": 4,
+            "fire_score": 21,
+            "source": "Open-Meteo Forecast API",
+            "updated_at": "2026-06-21T23:39:06+02:00"
+        },
+        "arago": {
+            "region": "Aragó",
+            "max_temperature_7d": 32,
+            "rain_7d": 1,
+            "max_wind_7d": 42,
+            "heat_score": 42,
+            "drought_score": 56,
+            "fire_score": 58,
+            "source": "Open-Meteo Forecast API",
+            "updated_at": "2026-06-21T23:39:06+02:00"
+        },
+        "valencia": {
+            "region": "País Valencià",
+            "max_temperature_7d": 31,
+            "rain_7d": 17,
+            "max_wind_7d": 36,
+            "heat_score": 36,
+            "drought_score": 0,
+            "fire_score": 31,
+            "source": "Open-Meteo Forecast API",
+            "updated_at": "2026-06-21T23:39:06+02:00"
+        },
+        "balears": {
+            "region": "Illes Balears",
+            "max_temperature_7d": 34,
+            "rain_7d": 9,
+            "max_wind_7d": 26,
+            "heat_score": 54,
+            "drought_score": 24,
+            "fire_score": 44,
+            "source": "Open-Meteo Forecast API",
+            "updated_at": "2026-06-21T23:39:06+02:00"
+        },
+        "madrid": {
+            "region": "Madrid",
+            "max_temperature_7d": 26,
+            "rain_7d": 18,
+            "max_wind_7d": 44,
+            "heat_score": 6,
+            "drought_score": 0,
+            "fire_score": 20,
+            "source": "Open-Meteo Forecast API",
+            "updated_at": "2026-06-21T23:39:06+02:00"
+        },
+        "andalusia": {
+            "region": "Andalusia",
+            "max_temperature_7d": 36,
+            "rain_7d": 13,
+            "max_wind_7d": 21,
+            "heat_score": 66,
+            "drought_score": 8,
+            "fire_score": 41,
+            "source": "Open-Meteo Forecast API",
+            "updated_at": "2026-06-21T23:39:06+02:00"
+        },
+        "portugal_nord": {
+            "region": "Portugal Nord",
+            "max_temperature_7d": 36,
+            "rain_7d": 4,
+            "max_wind_7d": 42,
+            "heat_score": 66,
+            "drought_score": 44,
+            "fire_score": 64,
+            "source": "Open-Meteo Forecast API",
+            "updated_at": "2026-06-21T23:39:06+02:00"
+        },
+        "portugal_centre": {
+            "region": "Portugal Centre",
+            "max_temperature_7d": 32,
+            "rain_7d": 6,
+            "max_wind_7d": 41,
+            "heat_score": 42,
+            "drought_score": 36,
+            "fire_score": 50,
+            "source": "Open-Meteo Forecast API",
+            "updated_at": "2026-06-21T23:39:06+02:00"
+        },
+        "lisboa_tejo": {
+            "region": "Lisboa / Tejo",
+            "max_temperature_7d": 25,
+            "rain_7d": 17,
+            "max_wind_7d": 16,
+            "heat_score": 0,
+            "drought_score": 0,
+            "fire_score": 6,
+            "source": "Open-Meteo Forecast API",
+            "updated_at": "2026-06-21T23:39:06+02:00"
+        },
+        "algarve": {
+            "region": "Algarve",
+            "max_temperature_7d": 31,
+            "rain_7d": 4,
+            "max_wind_7d": 41,
+            "heat_score": 36,
+            "drought_score": 44,
+            "fire_score": 50,
+            "source": "Open-Meteo Forecast API",
+            "updated_at": "2026-06-21T23:39:06+02:00"
+        }
+    }
+}

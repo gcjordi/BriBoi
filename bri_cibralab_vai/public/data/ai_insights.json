@@ -1,0 +1,24 @@
+{
+  "mode": "rule_based_fallback",
+  "updated_at": "2026-06-21T00:00:00+02:00",
+  "executive_summary": "BRI v0.2 incorpora una capa d’intel·ligència per interpretar dades climàtiques, qualitat ambiental i senyals oberts. Aquesta mostra inicial és orientativa; executa scripts/update.php al servidor per actualitzar les dades.",
+  "weak_signals": [
+    {"title":"Vectors i clima", "why_it_matters":"La combinació de calor, pluges puntuals i presència de mosquits pot actuar com a senyal primerenc de risc vectorial."},
+    {"title":"Sequedat i ecosistemes", "why_it_matters":"La sequera sostinguda pot incrementar estrès forestal, risc d’incendi i pressió sobre biodiversitat."},
+    {"title":"Aire i salut", "why_it_matters":"La qualitat de l’aire pot amplificar els impactes de la calor en població vulnerable."}
+  ],
+  "cross_domain_correlations": [
+    "Calor + baixa precipitació + senyals de biodiversitat poden indicar vulnerabilitat ecològica.",
+    "Vectors + humitat + temperatura alta poden justificar seguiment preventiu.",
+    "Qualitat de l’aire + calor poden augmentar risc ambiental per a salut pública."
+  ],
+  "hypotheses": [
+    "Les zones amb sequera i calor podrien mostrar més estrès ecosistèmic a curt termini.",
+    "Els senyals sobre vectors són més rellevants quan coincideixen amb condicions climàtiques favorables."
+  ],
+  "seven_day_outlook": "Seguiment recomanat dels territoris amb components climàtics elevats.",
+  "thirty_day_outlook": "Si persisteixen calor i sequera, el risc agregat podria augmentar en algunes zones.",
+  "recommended_public_actions": ["Consultar fonts oficials.", "No interpretar el BRI com una alerta oficial.", "Fer vigilància comunitària responsable."],
+  "confidence": 50,
+  "limitations": ["Dades inicials de demostració.", "Cal executar l’actualitzador per obtenir dades fresques.", "No substitueix autoritats públiques."]
+}
