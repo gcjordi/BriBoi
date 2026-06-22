@@ -1,26 +1,32 @@
 # AGENTS.md
 
-Instructions for AI coding agents (Codex and similar systems)
+## Project overview
 
-## Objectives
-- Improve code quality
-- Preserve transparency
-- Maintain reproducibility
+BriBoi is an open-source AI project that integrates Biodiversity Research Intelligence and Biodiversity Opportunity Intelligence.
 
-## Rules
-- Never commit secrets
-- Never modify licenses
-- Never delete attribution notices
-- Prefer small pull requests
-- Add documentation when introducing features
+The repository contains two complementary modules:
 
-## Security
-Reject any change exposing:
-- Credentials
-- Tokens
-- Private keys
-- Personal data
+- `bri_cibralab_vai`: Biodiversity Research Intelligence.
+- `boi_cibralab`: Biodiversity Opportunity Intelligence.
 
-## Branching
-Work on feature branches.
-Never push directly to main.
+Codex must help maintain, improve and extend the project while preserving clarity, modularity, security and scientific credibility.
+
+## Rules for Codex
+
+- Never push directly to `main`.
+- Always work through branches and pull requests.
+- Keep both modules separated unless integration is explicitly requested.
+- Do not add secrets, API keys, tokens or credentials.
+- Avoid unnecessary dependencies.
+- Keep documentation in English.
+- Preserve the existing LICENSE, NOTICE, SECURITY.md, CONTRIBUTING.md and CODE_OF_CONDUCT.md files.
+- Explain all changes clearly in pull requests.
+
+## Validation
+
+Before proposing changes, Codex should:
+
+- Check basic syntax.
+- Run available tests if present.
+- Explain what was changed.
+- Mention limitations or untested areas.
